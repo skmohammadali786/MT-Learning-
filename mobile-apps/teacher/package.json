@@ -1,0 +1,6 @@
+{
+  "name":"mt-learning-teacher-app","version":"1.0.0","private":true,
+  "scripts":{"android:add":"cap add android","android:sync":"cap sync android","check:site":"node scripts/check-site.mjs"},
+  "dependencies":{"@capacitor/core":"^8.0.0"},
+  "devDependencies":{"@capacitor/android":"^8.0.0","@capacitor/cli":"^8.0.0"}
+}
